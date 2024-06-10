@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /**{
+    height: 0;
+    width: 0;
+}*/
+
+.color-red{
+    color: red;
+}
+
+.heading{
+    color: purple;
+}
+
+/*.main-content .heading{
+font-style: italic;
+color: blue;
+} */
+
+.pai h1+p{
+    color: blueviolet;
+}
+/*.pai p+h1{
+    color: yellow;
+}*/
+.pai h1~p{
+    color: brown;
+}
+[meu-atributo]{
+    color: peru;
+}
+
+        body{
+            font-family: sans-serif;
+        }
+        .responsive-table{
+            max-width: 100%;
+            overflow-x: auto;
+
+        }
+        table{
+            border-collapse: collapse;
+            width: 100%;
+        }
+        table td, table th{
+            border: 1px solid #ccc;
+            padding: 5px;
+            text-align: left;
+        }
+        table caption{
+            caption-side: bottom;
+            text-align: center;
+            font-style: italic;
+            font-size: 14px;
+            margin: 5px 0;
+        }
+        tfoot td, table th{
+            background: #ddd;
+        }
+        tfoot td{
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit.</p>
+    <div class="responsive-table">
+        <table>
+            <caption>Descrição da tabela</caption>
+            <thead>
+                <tr>
+                    <th>Título 1</th>
+                    <th>Título 2</th>
+                    <th>Título 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                    <td>Corpo 1</td>
+                    <td>Corpo 2</td>
+                    <td>Corpo 3</td>
+            <tr> 
+                    <td colspan="2">AQUI</td>
+                    <td>Corpo 3</td>
+                </tr>
+            <tr> 
+                    <td>Corpo 1</td>
+                    <td>Corpo 2</td>
+                    <td>Corpo 3</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2" rowspan="2"></td>
+                    <td rowspan="2">TOTAL: R$555</td>
+                </tr>    
+            </tfoot>    
+        </table>
+    </div>
+    <section>
+        <h1>Cabeça</h1>
+        <p>Formulário</p>
+
+        <fieldset>
+            <legend>Descrição</legend>
+            <p>
+                <input type="text">
+            </p>
+        </fieldset>
+    </section>
+
+</body>
+</html>

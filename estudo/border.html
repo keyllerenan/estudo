@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        nav {
+            background: grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-decoration: none;
+            padding: 20px;
+            display: block;
+            text-transform: uppercase;
+        }
+        nav a:hover{
+                background: rgba(0,0,0,0.3);
+            }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+/*        .section-one,
+        .section-two {
+            box-sizing: border-box;
+        }
+*/
+        .section-one{
+            margin: 20px;
+            border: 5px solid black;
+            border-style: solid;
+            border-width: 10px;
+            border-bottom-color: firebrick;
+            border-top-color: yellow;
+            border-right-color: green;
+            border-left-color: blue;
+            padding: 15px;
+            width: 300px;
+            height: 175px;
+            color: #fff;
+            background-color: deeppink;
+            background-image: url(http://blog.srisriayurveda.com.br/wp-content/uploads/2019/06/natureza-1140x512.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .section-two{
+            background: cyan;
+        }
+    </style>
+</head>
+<body>
+    <section class="section-one">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        Iure illum ipsam tenetur provident quisquam illo omnis 
+        ducimus blanditiis expedita quidem aliquam voluptatibus 
+        veniam quam molestiae necessitatibus quaerat, a veritatis 
+        excepturi?
+    </section>
+    <section class="section-two">2</section> <br>
+    
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Products</a></li>
+            
+        </ul>
+    </nav>
+
+    <br><u>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </u> <br>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ol> <br>
+    <dl>
+        <dt>Café</dt>
+            <dd>Bebida quente</dd>
+        <dt>Chá</dt>
+            <dd>Bebida fria</dd>
+    </dl>
+</body>
+</html>
