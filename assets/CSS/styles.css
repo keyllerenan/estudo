@@ -108,3 +108,26 @@ ul li:nth-child(3n+10){
 html{
     scroll-behavior: smooth;
 }
+/* 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font: sans-serif;
+    font-size: 40px;
+}
+.grid{
+    display: grid;
+    margin: 0;
+    /*grid-template-columns: repeat( 3, 1fr 2fr);*/
+    /*grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));*/
+    /*grid-template-rows: repeat(2, 1fr 2fr);
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+.grid div{
+   background: tomato;
+   min-height: 100px;
+} */
